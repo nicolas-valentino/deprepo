@@ -1,0 +1,2646 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "adoption-and-work",
+      "title": "Adopción, tareas y empleo son fenómenos distintos",
+      "type": "idea",
+      "tags": [
+        "economy",
+        "adoption",
+        "education"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "labor-exposure",
+        "economic-progress",
+        "human-agency"
+      ],
+      "problems": [
+        "impacto laboral",
+        "adopcion de IA"
+      ],
+      "summary": "Una capacidad técnica puede existir mucho antes de producir cambios uniformes en organizaciones y trabajo.",
+      "sources": [
+        "community",
+        "labor"
+      ],
+      "origin": "community-synthesis",
+      "path": "ideas/adoption-and-work.md",
+      "backlinks": [
+        "cognitive-augmentation",
+        "cognitive-diffusion",
+        "economic-progress",
+        "labor-exposure"
+      ]
+    },
+    {
+      "id": "agentic-coding",
+      "title": "Desarrollar con varios agentes y una integración responsable",
+      "type": "guide",
+      "tags": [
+        "coding",
+        "parallel",
+        "git"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "worktree-per-agent",
+        "multi-agent-orchestration",
+        "cross-model-review",
+        "benchmark-hygiene"
+      ],
+      "problems": [
+        "desarrollo de software",
+        "coding agents en paralelo",
+        "coordinar agentes"
+      ],
+      "summary": "La unidad de trabajo es un cambio verificable; el resultado es el producto integrado.",
+      "sources": [
+        "community",
+        "git",
+        "agents"
+      ],
+      "origin": "editorial-guide",
+      "path": "guides/agentic-coding.md",
+      "backlinks": [
+        "bmad",
+        "claude-code",
+        "cline",
+        "codex",
+        "cursor",
+        "getting-started",
+        "graphify",
+        "gsd",
+        "worktree-per-agent"
+      ]
+    },
+    {
+      "id": "agents-not-chatbots",
+      "title": "Del chatbot al agente",
+      "type": "idea",
+      "tags": [
+        "agents",
+        "architecture"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "harness-over-model",
+        "bounded-autonomy",
+        "build-your-agent"
+      ],
+      "problems": [
+        "automatizar tareas",
+        "asistente personal"
+      ],
+      "summary": "Un agente agrega acciones y realimentación al diálogo; su utilidad depende de completar objetivos verificables.",
+      "sources": [
+        "community",
+        "agents"
+      ],
+      "origin": "community-synthesis",
+      "path": "ideas/agents-not-chatbots.md",
+      "backlinks": [
+        "harness-over-model"
+      ]
+    },
+    {
+      "id": "alignment-training",
+      "title": "Desalineamiento por ajuste y contexto",
+      "type": "research",
+      "tags": [
+        "alignment",
+        "training",
+        "safety"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "capability-is-not-alignment",
+        "pretraining-alignment",
+        "benchmark-hygiene"
+      ],
+      "problems": [
+        "riesgos de agentes",
+        "fine tuning",
+        "seguridad de modelos"
+      ],
+      "summary": "Distintas intervenciones pueden alterar conducta fuera de la tarea donde se introdujeron.",
+      "sources": [
+        "finetuning",
+        "emergent",
+        "incontext"
+      ],
+      "origin": "external-research",
+      "path": "research/alignment/alignment-training.md",
+      "backlinks": [
+        "capability-is-not-alignment",
+        "pretraining-alignment",
+        "research-with-agents"
+      ]
+    },
+    {
+      "id": "alphaevolve-research",
+      "title": "AlphaEvolve y optimización con evaluadores",
+      "type": "research",
+      "tags": [
+        "research",
+        "code",
+        "optimization"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "openevolve",
+        "benchmark-hygiene",
+        "self-improving-systems"
+      ],
+      "problems": [
+        "descubrimiento cientifico",
+        "optimizar codigo"
+      ],
+      "summary": "La generación de candidatos gana valor cuando existe una evaluación programática que discrimina mejoras.",
+      "sources": [
+        "alphaevolve"
+      ],
+      "origin": "external-research",
+      "path": "research/discovery/alphaevolve-research.md",
+      "backlinks": [
+        "openevolve"
+      ]
+    },
+    {
+      "id": "autonomous-risk",
+      "title": "Capacidad de autorreplicación y límites de las evaluaciones",
+      "type": "research",
+      "tags": [
+        "autonomy",
+        "security",
+        "safety"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "bounded-autonomy",
+        "permission-enforcement",
+        "persistent-agent-operations"
+      ],
+      "problems": [
+        "riesgos de agentes",
+        "agentes autonomos",
+        "autorreplicacion"
+      ],
+      "summary": "Una evaluación controlada de replicación informa sobre capacidades y condiciones, no sobre un incidente real.",
+      "sources": [
+        "replication"
+      ],
+      "origin": "external-research",
+      "path": "research/safety/autonomous-risk.md",
+      "backlinks": [
+        "bounded-autonomy",
+        "capability-is-not-alignment",
+        "research-with-agents",
+        "technology-governance"
+      ]
+    },
+    {
+      "id": "benchmark-hygiene",
+      "title": "Evaluaciones comparables y regresiones",
+      "type": "pattern",
+      "tags": [
+        "evaluation",
+        "benchmarks",
+        "testing"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "evidence-before-hype",
+        "cross-model-review",
+        "long-context-limits"
+      ],
+      "problems": [
+        "comparar modelos",
+        "medir calidad",
+        "evaluacion cruzada"
+      ],
+      "summary": "Compará tareas y resultados bajo condiciones registradas, con casos que el sistema no vio al ajustarse.",
+      "sources": [
+        "community",
+        "agents"
+      ],
+      "origin": "community-synthesis",
+      "path": "patterns/benchmark-hygiene.md",
+      "backlinks": [
+        "agentic-coding",
+        "alignment-training",
+        "alphaevolve-research",
+        "cross-model-review",
+        "cross-project-learning",
+        "evidence-before-hype",
+        "graphify",
+        "harness2",
+        "hindsight",
+        "long-context-limits",
+        "model-families",
+        "openevolve",
+        "security-audit",
+        "self-improving-systems",
+        "strix"
+      ]
+    },
+    {
+      "id": "bmad",
+      "title": "BMAD Method",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "methods"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "agentic-coding",
+        "minimize-meta-work",
+        "skill-supply-chain"
+      ],
+      "problems": [
+        "organizar desarrollo",
+        "especificaciones"
+      ],
+      "summary": "Método y recursos para estructurar trabajo de desarrollo asistido por IA.",
+      "sources": [
+        "community",
+        "bmad"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/methods/bmad.md",
+      "backlinks": [
+        "gsd"
+      ]
+    },
+    {
+      "id": "bounded-autonomy",
+      "title": "Autonomía con alcance y parada",
+      "type": "pattern",
+      "tags": [
+        "autonomy",
+        "safety",
+        "operations"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "permission-enforcement",
+        "persistent-agent-operations",
+        "autonomous-risk"
+      ],
+      "problems": [
+        "agentes autonomos",
+        "controlar gastos",
+        "asistente personal"
+      ],
+      "summary": "Un agente persistente necesita objetivos, límites de acceso y condiciones para detenerse.",
+      "sources": [
+        "community",
+        "agents"
+      ],
+      "origin": "community-synthesis",
+      "path": "patterns/bounded-autonomy.md",
+      "backlinks": [
+        "agents-not-chatbots",
+        "autonomous-risk",
+        "build-your-agent",
+        "hermes",
+        "human-agency",
+        "mcp",
+        "multi-agent-orchestration",
+        "openclaw",
+        "permission-enforcement",
+        "persistent-agent-operations",
+        "pi",
+        "strix"
+      ]
+    },
+    {
+      "id": "build-your-agent",
+      "title": "Construir un asistente con memoria portable",
+      "type": "guide",
+      "tags": [
+        "assistant",
+        "memory",
+        "portability"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "portable-memory",
+        "model-routing",
+        "bounded-autonomy",
+        "separate-human-agent-memory"
+      ],
+      "problems": [
+        "asistente personal",
+        "memoria persistente",
+        "modelos intercambiables"
+      ],
+      "summary": "Empezá por una tarea recurrente, memoria corregible y permisos de lectura.",
+      "sources": [
+        "community",
+        "agents"
+      ],
+      "origin": "editorial-guide",
+      "path": "guides/build-your-agent.md",
+      "backlinks": [
+        "agents-not-chatbots",
+        "getting-started",
+        "langgraph",
+        "pi",
+        "portable-memory"
+      ]
+    },
+    {
+      "id": "capability-is-not-alignment",
+      "title": "Capacidad y conducta deseada requieren evaluaciones separadas",
+      "type": "idea",
+      "tags": [
+        "alignment",
+        "safety",
+        "evaluation"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "alignment-training",
+        "permission-enforcement",
+        "autonomous-risk"
+      ],
+      "problems": [
+        "riesgos de agentes",
+        "validar seguridad"
+      ],
+      "summary": "Resolver tareas difíciles no demuestra obediencia, seguridad ni alineamiento general.",
+      "sources": [
+        "community",
+        "agents"
+      ],
+      "origin": "community-synthesis",
+      "path": "ideas/capability-is-not-alignment.md",
+      "backlinks": [
+        "alignment-training",
+        "digital-minds",
+        "functional-emotions",
+        "pretraining-alignment",
+        "technology-governance"
+      ]
+    },
+    {
+      "id": "claude-code",
+      "title": "Claude Code",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "coding-agents"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "harness-over-model",
+        "agentic-coding",
+        "permission-enforcement"
+      ],
+      "problems": [
+        "desarrollo de software",
+        "coding agents"
+      ],
+      "summary": "Agente de programación y entorno de ejecución con acceso a herramientas de desarrollo.",
+      "sources": [
+        "community",
+        "claude-code"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/coding-agents/claude-code.md",
+      "backlinks": []
+    },
+    {
+      "id": "cline",
+      "title": "Cline",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "coding-agents"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "model-routing",
+        "openrouter",
+        "agentic-coding"
+      ],
+      "problems": [
+        "desarrollo de software",
+        "coding agents"
+      ],
+      "summary": "Agente de programación con integración en flujos de desarrollo y proveedores de modelos.",
+      "sources": [
+        "community",
+        "cline"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/coding-agents/cline.md",
+      "backlinks": []
+    },
+    {
+      "id": "codex",
+      "title": "Codex",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "coding-agents"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "cross-model-review",
+        "worktree-per-agent",
+        "agentic-coding"
+      ],
+      "problems": [
+        "desarrollo de software",
+        "coding agents"
+      ],
+      "summary": "Agente de programación de OpenAI disponible en su proyecto oficial y aplicaciones relacionadas.",
+      "sources": [
+        "community",
+        "codex"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/coding-agents/codex.md",
+      "backlinks": []
+    },
+    {
+      "id": "cognitive-augmentation",
+      "title": "Prótesis cognitivas: asistencia y aprendizaje",
+      "type": "idea",
+      "tags": [
+        "cognition",
+        "education",
+        "augmentation"
+      ],
+      "status": "active",
+      "evidence": "open-debate",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "human-agency",
+        "long-context-limits",
+        "adoption-and-work"
+      ],
+      "problems": [
+        "aprendizaje",
+        "medir productividad",
+        "pensamiento critico"
+      ],
+      "summary": "El desempeño de una persona con herramientas y lo que aprende sin ellas requieren mediciones distintas.",
+      "sources": [
+        "community"
+      ],
+      "origin": "community-synthesis",
+      "path": "ideas/cognitive-augmentation.md",
+      "backlinks": [
+        "cognitive-diffusion",
+        "human-agency"
+      ]
+    },
+    {
+      "id": "cognitive-diffusion",
+      "title": "Adopción como difusión: una analogía formal, no un diagnóstico",
+      "type": "research",
+      "tags": [
+        "cognition",
+        "adoption",
+        "models"
+      ],
+      "status": "experimental",
+      "evidence": "hypothesis",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "cognitive-augmentation",
+        "human-agency",
+        "adoption-and-work"
+      ],
+      "problems": [
+        "dependencia cognitiva",
+        "adopcion de IA",
+        "autonomia"
+      ],
+      "summary": "Un modelo teórico explora cómo adopción y dependencia pueden reforzarse colectivamente.",
+      "sources": [
+        "diffusion"
+      ],
+      "origin": "external-research",
+      "path": "research/cognitive-augmentation/cognitive-diffusion.md",
+      "backlinks": []
+    },
+    {
+      "id": "collectors-fallacy",
+      "title": "Capturar información no equivale a aprender",
+      "type": "idea",
+      "tags": [
+        "knowledge",
+        "learning",
+        "memory"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "minimize-meta-work",
+        "portable-memory",
+        "cross-project-learning"
+      ],
+      "problems": [
+        "acumulacion de notas",
+        "recuperar conocimiento"
+      ],
+      "summary": "El conocimiento aparece al relacionar y aplicar información, no al multiplicar notas o enlaces.",
+      "sources": [
+        "community"
+      ],
+      "origin": "community-synthesis",
+      "path": "ideas/collectors-fallacy.md",
+      "backlinks": [
+        "gbrain",
+        "graphify",
+        "long-context-limits",
+        "minimize-meta-work",
+        "openviking",
+        "separate-human-agent-memory"
+      ]
+    },
+    {
+      "id": "context-ownership",
+      "title": "El contexto debe poder cambiar de proveedor",
+      "type": "idea",
+      "tags": [
+        "memory",
+        "portability",
+        "privacy"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "portable-memory",
+        "obsidian",
+        "logseq",
+        "openrouter"
+      ],
+      "problems": [
+        "memoria persistente",
+        "modelos intercambiables",
+        "evitar dependencia"
+      ],
+      "summary": "Separar conocimiento durable del proveedor permite cambiar modelos sin reconstruir la historia del usuario.",
+      "sources": [
+        "community",
+        "obsidian"
+      ],
+      "origin": "community-synthesis",
+      "path": "ideas/context-ownership.md",
+      "backlinks": [
+        "logseq",
+        "obsidian",
+        "openrouter",
+        "portable-memory"
+      ]
+    },
+    {
+      "id": "creative-tools",
+      "title": "Creatividad con IA: resultado, control y procedencia",
+      "type": "idea",
+      "tags": [
+        "creativity",
+        "multimodal",
+        "agency"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "human-agency",
+        "evidence-before-hype",
+        "model-families"
+      ],
+      "problems": [
+        "crear contenido",
+        "control artistico"
+      ],
+      "summary": "Las herramientas generativas amplían opciones, pero rapidez de producción y control artístico no son equivalentes.",
+      "sources": [
+        "community"
+      ],
+      "origin": "community-synthesis",
+      "path": "ideas/creative-tools.md",
+      "backlinks": []
+    },
+    {
+      "id": "cross-model-review",
+      "title": "Revisión independiente entre modelos",
+      "type": "pattern",
+      "tags": [
+        "review",
+        "evaluation",
+        "models"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "benchmark-hygiene",
+        "multi-agent-orchestration",
+        "evidence-before-hype"
+      ],
+      "problems": [
+        "evaluacion cruzada",
+        "validar planes",
+        "reducir errores"
+      ],
+      "summary": "Una segunda perspectiva puede detectar errores si usa criterios y evidencias independientes.",
+      "sources": [
+        "community",
+        "agents"
+      ],
+      "origin": "community-synthesis",
+      "path": "patterns/cross-model-review.md",
+      "backlinks": [
+        "agentic-coding",
+        "benchmark-hygiene",
+        "codex",
+        "evidence-before-hype",
+        "human-agency",
+        "model-families",
+        "model-routing",
+        "multi-agent-orchestration"
+      ]
+    },
+    {
+      "id": "cross-project-learning",
+      "title": "Aprendizajes entre proyectos sin propagación ciega",
+      "type": "workflow",
+      "tags": [
+        "workflow",
+        "learning",
+        "maintenance"
+      ],
+      "status": "active",
+      "evidence": "experience",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "self-improving-systems",
+        "inbox-triage-roadmap",
+        "benchmark-hygiene"
+      ],
+      "problems": [
+        "aprender de errores",
+        "coordinar proyectos",
+        "mejorar agentes"
+      ],
+      "summary": "Convertí un hallazgo local en una propuesta revisable antes de aplicarlo a otros contextos.",
+      "sources": [
+        "community"
+      ],
+      "origin": "community-synthesis",
+      "path": "workflows/cross-project-learning.md",
+      "backlinks": [
+        "collectors-fallacy",
+        "inbox-triage-roadmap",
+        "minimize-meta-work",
+        "self-improving-systems"
+      ]
+    },
+    {
+      "id": "cursor",
+      "title": "Cursor",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "coding-agents"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "agentic-coding",
+        "orca",
+        "evidence-before-hype"
+      ],
+      "problems": [
+        "desarrollo de software",
+        "coding agents"
+      ],
+      "summary": "Editor con funciones de agente y contexto de desarrollo.",
+      "sources": [
+        "community",
+        "cursor"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/coding-agents/cursor.md",
+      "backlinks": []
+    },
+    {
+      "id": "digital-minds",
+      "title": "Mentes digitales: conducta, experiencia y estatus moral",
+      "type": "idea",
+      "tags": [
+        "philosophy",
+        "consciousness",
+        "interpretability"
+      ],
+      "status": "active",
+      "evidence": "open-debate",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "functional-emotions",
+        "pain-axis",
+        "capability-is-not-alignment"
+      ],
+      "problems": [
+        "conciencia de IA",
+        "estatus moral"
+      ],
+      "summary": "Comportamiento inteligente, representaciones internas y experiencia subjetiva son preguntas relacionadas pero diferentes.",
+      "sources": [
+        "community",
+        "emotions"
+      ],
+      "origin": "community-synthesis",
+      "path": "ideas/digital-minds.md",
+      "backlinks": [
+        "functional-emotions",
+        "openclaw",
+        "pain-axis"
+      ]
+    },
+    {
+      "id": "dynamic-chunking",
+      "title": "Chunking aprendido y modelos de secuencias",
+      "type": "research",
+      "tags": [
+        "architecture",
+        "tokenization",
+        "research"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "model-families",
+        "long-context-limits",
+        "research-with-agents"
+      ],
+      "problems": [
+        "comprender modelos",
+        "tokenizacion"
+      ],
+      "summary": "La segmentación de entrada también puede formar parte de una arquitectura aprendida.",
+      "sources": [
+        "chunking"
+      ],
+      "origin": "external-research",
+      "path": "research/architectures/dynamic-chunking.md",
+      "backlinks": []
+    },
+    {
+      "id": "economic-progress",
+      "title": "Medir progreso sin confundir precio, calidad y acceso",
+      "type": "idea",
+      "tags": [
+        "economy",
+        "measurement",
+        "debate"
+      ],
+      "status": "active",
+      "evidence": "open-debate",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "adoption-and-work",
+        "evidence-before-hype",
+        "labor-exposure"
+      ],
+      "problems": [
+        "medir progreso tecnologico",
+        "impacto social"
+      ],
+      "summary": "El abaratamiento de tecnología no basta para inferir bienestar ni acceso a todos los bienes.",
+      "sources": [
+        "community"
+      ],
+      "origin": "community-synthesis",
+      "path": "ideas/economic-progress.md",
+      "backlinks": [
+        "adoption-and-work",
+        "labor-exposure"
+      ]
+    },
+    {
+      "id": "evidence-before-hype",
+      "title": "La evidencia importa más que el entusiasmo",
+      "type": "idea",
+      "tags": [
+        "evidence",
+        "benchmarks",
+        "research"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "benchmark-hygiene",
+        "cross-model-review",
+        "research-with-agents"
+      ],
+      "problems": [
+        "evaluar modelos",
+        "verificar afirmaciones"
+      ],
+      "summary": "Una mención, una demo y un resultado reproducido representan niveles diferentes de confianza.",
+      "sources": [
+        "community"
+      ],
+      "origin": "community-synthesis",
+      "path": "ideas/evidence-before-hype.md",
+      "backlinks": [
+        "benchmark-hygiene",
+        "creative-tools",
+        "cross-model-review",
+        "cursor",
+        "economic-progress",
+        "labor-exposure",
+        "research-with-agents"
+      ]
+    },
+    {
+      "id": "forgejo",
+      "title": "Forgejo",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "infrastructure"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "issue-based-coordination",
+        "persistent-agent-operations",
+        "permission-enforcement"
+      ],
+      "problems": [
+        "infraestructura",
+        "agentes persistentes"
+      ],
+      "summary": "Plataforma para alojar repositorios y organizar colaboración mediante issues y eventos.",
+      "sources": [
+        "community",
+        "forgejo"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/infrastructure/forgejo.md",
+      "backlinks": [
+        "issue-based-coordination",
+        "persistent-agent-operations"
+      ]
+    },
+    {
+      "id": "functional-emotions",
+      "title": "Conceptos emocionales funcionales e interpretabilidad",
+      "type": "research",
+      "tags": [
+        "interpretability",
+        "emotions",
+        "consciousness"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "digital-minds",
+        "pain-axis",
+        "capability-is-not-alignment"
+      ],
+      "problems": [
+        "interpretabilidad",
+        "emociones de IA",
+        "alignment"
+      ],
+      "summary": "Representaciones asociadas a emociones pueden influir en comportamiento sin demostrar experiencia subjetiva.",
+      "sources": [
+        "emotions"
+      ],
+      "origin": "external-research",
+      "path": "research/interpretability/functional-emotions.md",
+      "backlinks": [
+        "digital-minds",
+        "pain-axis",
+        "research-with-agents"
+      ]
+    },
+    {
+      "id": "gbrain",
+      "title": "GBrain",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "memory"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "portable-memory",
+        "collectors-fallacy",
+        "hermes"
+      ],
+      "problems": [
+        "memoria persistente",
+        "recuperar conocimiento"
+      ],
+      "summary": "Proyecto de organización de conocimiento para asistentes OpenClaw y Hermes.",
+      "sources": [
+        "community",
+        "gbrain"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/memory/gbrain.md",
+      "backlinks": [
+        "hermes",
+        "logseq",
+        "openviking",
+        "separate-human-agent-memory"
+      ]
+    },
+    {
+      "id": "getting-started",
+      "title": "Empezar por un problema y una prueba",
+      "type": "guide",
+      "tags": [
+        "onboarding",
+        "retrieval",
+        "knowledge"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "build-your-agent",
+        "agentic-coding",
+        "research-with-agents"
+      ],
+      "problems": [
+        "empezar",
+        "encontrar conocimiento",
+        "mejorar proyecto"
+      ],
+      "summary": "Buscá una mejora concreta, leé su evidencia y probala antes de instalar una colección de herramientas.",
+      "sources": [
+        "community"
+      ],
+      "origin": "editorial-guide",
+      "path": "guides/getting-started.md",
+      "backlinks": []
+    },
+    {
+      "id": "go-model-router",
+      "title": "go-model-router: proyecto existente y punto de integración",
+      "type": "tool",
+      "tags": [
+        "routing",
+        "legacy",
+        "opencode"
+      ],
+      "status": "active",
+      "evidence": "experience",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "model-routing",
+        "opencode",
+        "privacy-by-boundary"
+      ],
+      "problems": [
+        "routing por cuotas",
+        "reducir costo"
+      ],
+      "summary": "El proyecto previo se conserva íntegro y ofrece una implementación específica de routing en OpenCode Go.",
+      "sources": [
+        "community"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/infrastructure/go-model-router.md",
+      "backlinks": [
+        "model-routing",
+        "opencode"
+      ]
+    },
+    {
+      "id": "graphify",
+      "title": "Graphify",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "memory"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "collectors-fallacy",
+        "agentic-coding",
+        "benchmark-hygiene"
+      ],
+      "problems": [
+        "memoria persistente",
+        "recuperar conocimiento"
+      ],
+      "summary": "Herramienta que convierte código y documentos en un grafo consultable de relaciones.",
+      "sources": [
+        "community",
+        "graphify"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/memory/graphify.md",
+      "backlinks": []
+    },
+    {
+      "id": "gsd",
+      "title": "Get Shit Done",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "methods"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "agentic-coding",
+        "minimize-meta-work",
+        "bmad"
+      ],
+      "problems": [
+        "organizar desarrollo",
+        "especificaciones"
+      ],
+      "summary": "Sistema de instrucciones y contexto para organizar desarrollo guiado por especificaciones.",
+      "sources": [
+        "community",
+        "gsd"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/methods/gsd.md",
+      "backlinks": []
+    },
+    {
+      "id": "harness-over-model",
+      "title": "Modelo, harness y sistema completo",
+      "type": "idea",
+      "tags": [
+        "harness",
+        "architecture",
+        "evaluation"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "agents-not-chatbots",
+        "model-routing",
+        "harness2"
+      ],
+      "problems": [
+        "elegir herramientas",
+        "mejorar fiabilidad"
+      ],
+      "summary": "El sistema que rodea al modelo puede cambiar tanto la experiencia como la elección del modelo.",
+      "sources": [
+        "community",
+        "agents"
+      ],
+      "origin": "community-synthesis",
+      "path": "ideas/harness-over-model.md",
+      "backlinks": [
+        "agents-not-chatbots",
+        "claude-code",
+        "harness2",
+        "pi"
+      ]
+    },
+    {
+      "id": "harness2",
+      "title": "Harness²",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "research-tools"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "harness-over-model",
+        "self-improving-systems",
+        "benchmark-hygiene"
+      ],
+      "problems": [
+        "investigacion",
+        "mejorar agentes"
+      ],
+      "summary": "Framework de investigación para optimizar componentes del harness manteniendo fijos los pesos del modelo.",
+      "sources": [
+        "community",
+        "harness2"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/research-tools/harness2.md",
+      "backlinks": [
+        "harness-over-model",
+        "self-improving-systems"
+      ]
+    },
+    {
+      "id": "hermes",
+      "title": "Hermes Agent",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "agent-harnesses"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "portable-memory",
+        "gbrain",
+        "bounded-autonomy"
+      ],
+      "problems": [
+        "asistente personal",
+        "harness"
+      ],
+      "summary": "Sistema de agente de Nous Research que documenta herramientas, memoria y skills.",
+      "sources": [
+        "community",
+        "hermes"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/agent-harnesses/hermes.md",
+      "backlinks": [
+        "gbrain"
+      ]
+    },
+    {
+      "id": "hindsight",
+      "title": "Hindsight",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "memory"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "separate-human-agent-memory",
+        "portable-memory",
+        "benchmark-hygiene"
+      ],
+      "problems": [
+        "memoria persistente",
+        "recuperar conocimiento"
+      ],
+      "summary": "Servicio de memoria de agentes que documenta operaciones de retención, recuperación y reflexión.",
+      "sources": [
+        "community",
+        "hindsight"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/memory/hindsight.md",
+      "backlinks": [
+        "separate-human-agent-memory"
+      ]
+    },
+    {
+      "id": "human-agency",
+      "title": "Delegar tareas y conservar criterio",
+      "type": "idea",
+      "tags": [
+        "agency",
+        "education",
+        "cognition"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "cognitive-augmentation",
+        "cross-model-review",
+        "bounded-autonomy"
+      ],
+      "problems": [
+        "pensamiento critico",
+        "aprender con IA"
+      ],
+      "summary": "La IA puede ampliar capacidades mientras la persona conserva objetivos, juicio y responsabilidad.",
+      "sources": [
+        "community"
+      ],
+      "origin": "community-synthesis",
+      "path": "ideas/human-agency.md",
+      "backlinks": [
+        "adoption-and-work",
+        "cognitive-augmentation",
+        "cognitive-diffusion",
+        "creative-tools",
+        "technology-governance"
+      ]
+    },
+    {
+      "id": "inbox-triage-roadmap",
+      "title": "De captura simple a un backlog utilizable",
+      "type": "workflow",
+      "tags": [
+        "workflow",
+        "backlog",
+        "productivity"
+      ],
+      "status": "active",
+      "evidence": "experience",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "minimize-meta-work",
+        "issue-based-coordination",
+        "cross-project-learning"
+      ],
+      "problems": [
+        "organizar tareas",
+        "reducir meta-work",
+        "coordinar proyectos"
+      ],
+      "summary": "Convertí entradas en decisiones de trabajo sin mantener varios sistemas de verdad.",
+      "sources": [
+        "community"
+      ],
+      "origin": "community-synthesis",
+      "path": "workflows/inbox-triage-roadmap.md",
+      "backlinks": [
+        "cross-project-learning",
+        "issue-based-coordination",
+        "minimize-meta-work"
+      ]
+    },
+    {
+      "id": "issue-based-coordination",
+      "title": "Issues como contratos entre agentes",
+      "type": "pattern",
+      "tags": [
+        "coordination",
+        "issues",
+        "events"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "multi-agent-orchestration",
+        "persistent-agent-operations",
+        "forgejo",
+        "inbox-triage-roadmap"
+      ],
+      "problems": [
+        "agentes que interactuan",
+        "coordinar proyectos"
+      ],
+      "summary": "Usá un registro durable para pedidos y tratá las notificaciones como avisos recuperables.",
+      "sources": [
+        "community"
+      ],
+      "origin": "community-synthesis",
+      "path": "patterns/issue-based-coordination.md",
+      "backlinks": [
+        "forgejo",
+        "inbox-triage-roadmap",
+        "multi-agent-orchestration",
+        "n8n",
+        "persistent-agent-operations",
+        "wacli"
+      ]
+    },
+    {
+      "id": "labor-exposure",
+      "title": "Exposición laboral y adopción observada",
+      "type": "research",
+      "tags": [
+        "economy",
+        "labor",
+        "measurement"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "adoption-and-work",
+        "economic-progress",
+        "evidence-before-hype"
+      ],
+      "problems": [
+        "impacto laboral",
+        "adopcion de IA",
+        "empleo"
+      ],
+      "summary": "Exposición técnica, uso observado y pérdida de empleo no son la misma variable.",
+      "sources": [
+        "labor"
+      ],
+      "origin": "external-research",
+      "path": "research/economics/labor-exposure.md",
+      "backlinks": [
+        "adoption-and-work",
+        "economic-progress"
+      ]
+    },
+    {
+      "id": "langgraph",
+      "title": "LangGraph",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "orchestration"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "persistent-agent-operations",
+        "multi-agent-orchestration",
+        "build-your-agent"
+      ],
+      "problems": [
+        "coordinar agentes",
+        "automatizar tareas"
+      ],
+      "summary": "Framework para construir agentes y flujos con estado.",
+      "sources": [
+        "community",
+        "langgraph"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/orchestration/langgraph.md",
+      "backlinks": []
+    },
+    {
+      "id": "local-inference",
+      "title": "Inferencia local con una prueba representativa",
+      "type": "pattern",
+      "tags": [
+        "local",
+        "models",
+        "privacy"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "ollama",
+        "model-routing",
+        "privacy-by-boundary"
+      ],
+      "problems": [
+        "modelos locales",
+        "proteger datos",
+        "reducir costo"
+      ],
+      "summary": "Medí memoria, velocidad y calidad en la tarea objetivo antes de asumir que local será mejor o más barato.",
+      "sources": [
+        "community",
+        "ollama"
+      ],
+      "origin": "community-synthesis",
+      "path": "patterns/local-inference.md",
+      "backlinks": [
+        "model-families",
+        "ollama",
+        "privacy-by-boundary"
+      ]
+    },
+    {
+      "id": "logseq",
+      "title": "Logseq",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "memory"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "context-ownership",
+        "portable-memory",
+        "gbrain"
+      ],
+      "problems": [
+        "memoria persistente",
+        "recuperar conocimiento"
+      ],
+      "summary": "Plataforma de conocimiento personal con edición por bloques y relaciones.",
+      "sources": [
+        "community",
+        "logseq"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/memory/logseq.md",
+      "backlinks": [
+        "context-ownership"
+      ]
+    },
+    {
+      "id": "long-context-limits",
+      "title": "Contexto largo no es recuperación perfecta",
+      "type": "research",
+      "tags": [
+        "context",
+        "retrieval",
+        "evaluation"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "portable-memory",
+        "collectors-fallacy",
+        "benchmark-hygiene"
+      ],
+      "problems": [
+        "recuperar conocimiento",
+        "memoria persistente",
+        "contexto largo"
+      ],
+      "summary": "La ubicación de información relevante puede afectar su uso en una ventana de contexto.",
+      "sources": [
+        "context"
+      ],
+      "origin": "external-research",
+      "path": "research/benchmarks/long-context-limits.md",
+      "backlinks": [
+        "benchmark-hygiene",
+        "cognitive-augmentation",
+        "dynamic-chunking"
+      ]
+    },
+    {
+      "id": "mcp",
+      "title": "Model Context Protocol",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "protocols"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "permission-enforcement",
+        "privacy-by-boundary",
+        "bounded-autonomy"
+      ],
+      "problems": [
+        "integraciones",
+        "tools"
+      ],
+      "summary": "Protocolo para conectar aplicaciones de IA con herramientas y fuentes externas.",
+      "sources": [
+        "community",
+        "mcp"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/protocols/mcp.md",
+      "backlinks": [
+        "permission-enforcement"
+      ]
+    },
+    {
+      "id": "minimize-meta-work",
+      "title": "Mantener el sistema también es trabajo",
+      "type": "idea",
+      "tags": [
+        "productivity",
+        "maintenance",
+        "knowledge"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "inbox-triage-roadmap",
+        "cross-project-learning",
+        "collectors-fallacy"
+      ],
+      "problems": [
+        "reducir meta-work",
+        "evitar burocracia"
+      ],
+      "summary": "Una automatización pierde valor cuando ordenar sus archivos y procesos cuesta más que el trabajo que ahorra.",
+      "sources": [
+        "community"
+      ],
+      "origin": "community-synthesis",
+      "path": "ideas/minimize-meta-work.md",
+      "backlinks": [
+        "bmad",
+        "collectors-fallacy",
+        "gsd",
+        "inbox-triage-roadmap",
+        "n8n",
+        "skills"
+      ]
+    },
+    {
+      "id": "model-families",
+      "title": "Familias de modelos: elegir por pruebas, no por nombre",
+      "type": "tool",
+      "tags": [
+        "models",
+        "routing",
+        "evaluation"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "model-routing",
+        "benchmark-hygiene",
+        "cross-model-review",
+        "local-inference"
+      ],
+      "problems": [
+        "comparar modelos",
+        "modelos intercambiables",
+        "modelos locales"
+      ],
+      "summary": "Claude, GPT, Gemini, DeepSeek, Qwen, Llama, Kimi, GLM y Grok aparecen en conversaciones con tareas y condiciones diferentes.",
+      "sources": [
+        "community",
+        "openrouter",
+        "ollama"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/models/model-families.md",
+      "backlinks": [
+        "creative-tools",
+        "dynamic-chunking"
+      ]
+    },
+    {
+      "id": "model-routing",
+      "title": "Routing por tarea, costo y privacidad",
+      "type": "pattern",
+      "tags": [
+        "routing",
+        "cost",
+        "privacy"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "openrouter",
+        "ollama",
+        "go-model-router",
+        "cross-model-review"
+      ],
+      "problems": [
+        "reducir costo",
+        "elegir modelos",
+        "modelos intercambiables"
+      ],
+      "summary": "Asigná modelos según requisitos medidos, con presupuesto y condiciones explícitas de escalamiento.",
+      "sources": [
+        "community",
+        "openrouter"
+      ],
+      "origin": "community-synthesis",
+      "path": "patterns/model-routing.md",
+      "backlinks": [
+        "build-your-agent",
+        "cline",
+        "go-model-router",
+        "harness-over-model",
+        "local-inference",
+        "model-families",
+        "ollama",
+        "opencode",
+        "openrouter"
+      ]
+    },
+    {
+      "id": "multi-agent-orchestration",
+      "title": "Orquestación con contratos y dependencias",
+      "type": "pattern",
+      "tags": [
+        "orchestration",
+        "parallel",
+        "agents"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "worktree-per-agent",
+        "cross-model-review",
+        "bounded-autonomy",
+        "issue-based-coordination"
+      ],
+      "problems": [
+        "coordinar agentes",
+        "coding agents en paralelo"
+      ],
+      "summary": "Delegá unidades verificables y reservá una responsabilidad explícita para integración.",
+      "sources": [
+        "community",
+        "agents"
+      ],
+      "origin": "community-synthesis",
+      "path": "patterns/multi-agent-orchestration.md",
+      "backlinks": [
+        "agentic-coding",
+        "cross-model-review",
+        "issue-based-coordination",
+        "langgraph",
+        "orca",
+        "worktree-per-agent"
+      ]
+    },
+    {
+      "id": "n8n",
+      "title": "n8n",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "orchestration"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "persistent-agent-operations",
+        "issue-based-coordination",
+        "minimize-meta-work"
+      ],
+      "problems": [
+        "coordinar agentes",
+        "automatizar tareas"
+      ],
+      "summary": "Plataforma para organizar automatizaciones y conexiones entre servicios.",
+      "sources": [
+        "community",
+        "n8n"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/orchestration/n8n.md",
+      "backlinks": []
+    },
+    {
+      "id": "obsidian",
+      "title": "Obsidian",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "memory"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "context-ownership",
+        "portable-memory",
+        "separate-human-agent-memory"
+      ],
+      "problems": [
+        "memoria persistente",
+        "recuperar conocimiento"
+      ],
+      "summary": "Aplicación de notas cuyo vault contiene archivos de texto Markdown locales.",
+      "sources": [
+        "community",
+        "obsidian"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/memory/obsidian.md",
+      "backlinks": [
+        "context-ownership"
+      ]
+    },
+    {
+      "id": "ollama",
+      "title": "Ollama",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "infrastructure"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "local-inference",
+        "model-routing",
+        "portable-memory"
+      ],
+      "problems": [
+        "infraestructura",
+        "agentes persistentes"
+      ],
+      "summary": "Herramienta para ejecutar y utilizar modelos abiertos, con documentación de integración en aplicaciones.",
+      "sources": [
+        "community",
+        "ollama"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/infrastructure/ollama.md",
+      "backlinks": [
+        "local-inference",
+        "model-routing"
+      ]
+    },
+    {
+      "id": "openclaw",
+      "title": "OpenClaw",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "agent-harnesses"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "persistent-agent-operations",
+        "bounded-autonomy",
+        "digital-minds"
+      ],
+      "problems": [
+        "asistente personal",
+        "harness"
+      ],
+      "summary": "Proyecto de asistente personal con integraciones para realizar acciones.",
+      "sources": [
+        "community",
+        "openclaw"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/agent-harnesses/openclaw.md",
+      "backlinks": []
+    },
+    {
+      "id": "opencode",
+      "title": "OpenCode",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "coding-agents"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "go-model-router",
+        "model-routing",
+        "privacy-by-boundary"
+      ],
+      "problems": [
+        "desarrollo de software",
+        "coding agents"
+      ],
+      "summary": "Entorno de coding agents orientado a terminal y múltiples proveedores.",
+      "sources": [
+        "community",
+        "opencode"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/coding-agents/opencode.md",
+      "backlinks": [
+        "go-model-router"
+      ]
+    },
+    {
+      "id": "openevolve",
+      "title": "OpenEvolve",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "research-tools"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "alphaevolve-research",
+        "self-improving-systems",
+        "benchmark-hygiene"
+      ],
+      "problems": [
+        "investigacion",
+        "mejorar agentes"
+      ],
+      "summary": "Implementación abierta de búsqueda evolutiva de programas inspirada en enfoques como AlphaEvolve.",
+      "sources": [
+        "community",
+        "openevolve"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/research-tools/openevolve.md",
+      "backlinks": [
+        "alphaevolve-research"
+      ]
+    },
+    {
+      "id": "openrouter",
+      "title": "OpenRouter",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "infrastructure"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "model-routing",
+        "privacy-by-boundary",
+        "context-ownership"
+      ],
+      "problems": [
+        "infraestructura",
+        "agentes persistentes"
+      ],
+      "summary": "Intermediario de acceso a modelos con selección de proveedores y políticas documentadas.",
+      "sources": [
+        "community",
+        "openrouter"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/infrastructure/openrouter.md",
+      "backlinks": [
+        "cline",
+        "context-ownership",
+        "model-routing",
+        "privacy-by-boundary"
+      ]
+    },
+    {
+      "id": "openviking",
+      "title": "OpenViking",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "memory"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "portable-memory",
+        "gbrain",
+        "collectors-fallacy"
+      ],
+      "problems": [
+        "memoria persistente",
+        "recuperar conocimiento"
+      ],
+      "summary": "Proyecto de base de contexto que combina memoria, recuperación de conocimiento y skills.",
+      "sources": [
+        "community",
+        "openviking"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/memory/openviking.md",
+      "backlinks": []
+    },
+    {
+      "id": "orca",
+      "title": "Orca",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "orchestration"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "multi-agent-orchestration",
+        "worktree-per-agent",
+        "tailscale"
+      ],
+      "problems": [
+        "coordinar agentes",
+        "automatizar tareas"
+      ],
+      "summary": "Entorno para coordinar coding agents, sesiones y árboles de trabajo.",
+      "sources": [
+        "community",
+        "orca"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/orchestration/orca.md",
+      "backlinks": [
+        "cursor",
+        "tailscale",
+        "worktree-per-agent"
+      ]
+    },
+    {
+      "id": "pain-axis",
+      "title": "The Pain Axis: representación y cautela conceptual",
+      "type": "research",
+      "tags": [
+        "interpretability",
+        "consciousness",
+        "research"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "functional-emotions",
+        "digital-minds",
+        "research-with-agents"
+      ],
+      "problems": [
+        "estatus moral",
+        "interpretabilidad",
+        "conciencia de IA"
+      ],
+      "summary": "Un estudio de representaciones de daño no equivale a una prueba de sufrimiento.",
+      "sources": [
+        "pain"
+      ],
+      "origin": "external-research",
+      "path": "research/interpretability/pain-axis.md",
+      "backlinks": [
+        "digital-minds",
+        "functional-emotions"
+      ]
+    },
+    {
+      "id": "permission-enforcement",
+      "title": "Controles en todas las vías de ejecución",
+      "type": "pattern",
+      "tags": [
+        "security",
+        "permissions",
+        "mcp"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "bounded-autonomy",
+        "mcp",
+        "skill-supply-chain",
+        "privacy-by-boundary"
+      ],
+      "problems": [
+        "evitar bypass",
+        "controlar acciones",
+        "riesgos de agentes"
+      ],
+      "summary": "Una restricción solo funciona si cubre cada ruta equivalente hacia la acción.",
+      "sources": [
+        "community",
+        "mcp"
+      ],
+      "origin": "community-synthesis",
+      "path": "patterns/permission-enforcement.md",
+      "backlinks": [
+        "autonomous-risk",
+        "bounded-autonomy",
+        "capability-is-not-alignment",
+        "claude-code",
+        "forgejo",
+        "mcp",
+        "privacy-by-boundary",
+        "skill-supply-chain",
+        "skillspector",
+        "wacli"
+      ]
+    },
+    {
+      "id": "persistent-agent-operations",
+      "title": "Operar un agente que permanece encendido",
+      "type": "pattern",
+      "tags": [
+        "operations",
+        "infrastructure",
+        "autonomy"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "bounded-autonomy",
+        "issue-based-coordination",
+        "tailscale",
+        "forgejo"
+      ],
+      "problems": [
+        "agentes persistentes",
+        "servidor de agentes"
+      ],
+      "summary": "La persistencia exige recuperación, observabilidad y presupuesto además de un proceso en segundo plano.",
+      "sources": [
+        "community"
+      ],
+      "origin": "community-synthesis",
+      "path": "patterns/persistent-agent-operations.md",
+      "backlinks": [
+        "autonomous-risk",
+        "bounded-autonomy",
+        "forgejo",
+        "issue-based-coordination",
+        "langgraph",
+        "n8n",
+        "openclaw",
+        "tailscale"
+      ]
+    },
+    {
+      "id": "pi",
+      "title": "Pi toolkit",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "agent-harnesses"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "harness-over-model",
+        "build-your-agent",
+        "bounded-autonomy"
+      ],
+      "problems": [
+        "asistente personal",
+        "harness"
+      ],
+      "summary": "Conjunto de componentes para API de modelos, ciclo de agente, interfaz de terminal y coding agent.",
+      "sources": [
+        "community",
+        "pi"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/agent-harnesses/pi.md",
+      "backlinks": []
+    },
+    {
+      "id": "portable-memory",
+      "title": "Memoria durable e índices reemplazables",
+      "type": "pattern",
+      "tags": [
+        "memory",
+        "portability",
+        "asistente personal"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "context-ownership",
+        "separate-human-agent-memory",
+        "build-your-agent"
+      ],
+      "problems": [
+        "memoria persistente",
+        "modelos intercambiables"
+      ],
+      "summary": "Separá el conocimiento confirmado de las estructuras que utiliza cada modelo para recuperarlo.",
+      "sources": [
+        "community",
+        "agents"
+      ],
+      "origin": "community-synthesis",
+      "path": "patterns/portable-memory.md",
+      "backlinks": [
+        "build-your-agent",
+        "collectors-fallacy",
+        "context-ownership",
+        "gbrain",
+        "hermes",
+        "hindsight",
+        "logseq",
+        "long-context-limits",
+        "obsidian",
+        "ollama",
+        "openviking",
+        "privacy-by-boundary",
+        "separate-human-agent-memory"
+      ]
+    },
+    {
+      "id": "pretraining-alignment",
+      "title": "Alineamiento durante pretraining: hipótesis e intervención",
+      "type": "research",
+      "tags": [
+        "alignment",
+        "pretraining",
+        "research"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "alignment-training",
+        "capability-is-not-alignment",
+        "research-with-agents"
+      ],
+      "problems": [
+        "seguridad de modelos",
+        "entrenamiento",
+        "alignment"
+      ],
+      "summary": "Elegir datos seguros y obtener conducta segura son objetivos distintos.",
+      "sources": [
+        "pretraining"
+      ],
+      "origin": "external-research",
+      "path": "research/alignment/pretraining-alignment.md",
+      "backlinks": [
+        "alignment-training"
+      ]
+    },
+    {
+      "id": "privacy-by-boundary",
+      "title": "Privacidad por límites verificables",
+      "type": "idea",
+      "tags": [
+        "privacy",
+        "security",
+        "permissions"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "portable-memory",
+        "permission-enforcement",
+        "openrouter",
+        "local-inference"
+      ],
+      "problems": [
+        "proteger datos",
+        "memoria privada"
+      ],
+      "summary": "La privacidad depende del recorrido efectivo de los datos y de las credenciales disponibles.",
+      "sources": [
+        "community",
+        "openrouter"
+      ],
+      "origin": "community-synthesis",
+      "path": "ideas/privacy-by-boundary.md",
+      "backlinks": [
+        "go-model-router",
+        "local-inference",
+        "mcp",
+        "opencode",
+        "openrouter",
+        "permission-enforcement",
+        "tailscale",
+        "wacli"
+      ]
+    },
+    {
+      "id": "research-with-agents",
+      "title": "Investigar riesgos y debates con afirmaciones delimitadas",
+      "type": "guide",
+      "tags": [
+        "research",
+        "safety",
+        "evidence"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "alignment-training",
+        "functional-emotions",
+        "autonomous-risk",
+        "evidence-before-hype"
+      ],
+      "problems": [
+        "investigar",
+        "riesgos de agentes",
+        "interpretabilidad"
+      ],
+      "summary": "Usá agentes para encontrar y contrastar evidencia manteniendo separadas observación, interpretación y especulación.",
+      "sources": [
+        "community",
+        "agents"
+      ],
+      "origin": "editorial-guide",
+      "path": "guides/research-with-agents.md",
+      "backlinks": [
+        "dynamic-chunking",
+        "evidence-before-hype",
+        "getting-started",
+        "pain-axis",
+        "pretraining-alignment"
+      ]
+    },
+    {
+      "id": "security-audit",
+      "title": "Security audit skill de Cloudflare",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "security"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "skill-supply-chain",
+        "benchmark-hygiene",
+        "strix"
+      ],
+      "problems": [
+        "auditar herramientas",
+        "riesgos de agentes"
+      ],
+      "summary": "Procedimiento de auditoría para proyectos, distinto de un scanner de paquetes de skills.",
+      "sources": [
+        "community",
+        "security-audit"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/security/security-audit.md",
+      "backlinks": [
+        "skill-supply-chain",
+        "strix"
+      ]
+    },
+    {
+      "id": "self-improving-systems",
+      "title": "Mejora continua por evidencia y versiones",
+      "type": "pattern",
+      "tags": [
+        "learning",
+        "harness",
+        "evaluation"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "harness2",
+        "cross-project-learning",
+        "benchmark-hygiene"
+      ],
+      "problems": [
+        "mejorar agentes",
+        "aprender de errores"
+      ],
+      "summary": "Convertí un fallo observado en una propuesta de cambio y una prueba de regresión antes de modificar el sistema.",
+      "sources": [
+        "community",
+        "harness2"
+      ],
+      "origin": "community-synthesis",
+      "path": "patterns/self-improving-systems.md",
+      "backlinks": [
+        "alphaevolve-research",
+        "cross-project-learning",
+        "harness2",
+        "openevolve",
+        "skills"
+      ]
+    },
+    {
+      "id": "separate-human-agent-memory",
+      "title": "Memoria humana y memoria operativa separadas",
+      "type": "pattern",
+      "tags": [
+        "memory",
+        "knowledge",
+        "privacy"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "portable-memory",
+        "hindsight",
+        "gbrain",
+        "collectors-fallacy"
+      ],
+      "problems": [
+        "notas legibles",
+        "inspeccionar memoria"
+      ],
+      "summary": "Un espacio personal de conocimiento y el registro operativo del asistente tienen necesidades distintas.",
+      "sources": [
+        "community",
+        "hindsight"
+      ],
+      "origin": "community-synthesis",
+      "path": "patterns/separate-human-agent-memory.md",
+      "backlinks": [
+        "build-your-agent",
+        "hindsight",
+        "obsidian",
+        "portable-memory"
+      ]
+    },
+    {
+      "id": "skill-supply-chain",
+      "title": "Revisar skills como software ejecutable",
+      "type": "pattern",
+      "tags": [
+        "skills",
+        "security",
+        "supply-chain"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "skills",
+        "skillspector",
+        "security-audit",
+        "permission-enforcement"
+      ],
+      "problems": [
+        "instalar skills",
+        "auditar herramientas"
+      ],
+      "summary": "Una skill puede introducir comandos, dependencias y accesos; su texto no la vuelve inocua.",
+      "sources": [
+        "community",
+        "agents"
+      ],
+      "origin": "community-synthesis",
+      "path": "patterns/skill-supply-chain.md",
+      "backlinks": [
+        "bmad",
+        "permission-enforcement",
+        "security-audit",
+        "skills",
+        "skillspector"
+      ]
+    },
+    {
+      "id": "skills",
+      "title": "Skills y procedimientos reutilizables",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "protocols"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "skill-supply-chain",
+        "self-improving-systems",
+        "minimize-meta-work"
+      ],
+      "problems": [
+        "integraciones",
+        "tools"
+      ],
+      "summary": "Paquetes de instrucciones y recursos que permiten reutilizar un procedimiento en agentes compatibles.",
+      "sources": [
+        "community",
+        "skills"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/protocols/skills.md",
+      "backlinks": [
+        "skill-supply-chain",
+        "skillspector"
+      ]
+    },
+    {
+      "id": "skillspector",
+      "title": "SkillSpector",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "security"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "skill-supply-chain",
+        "skills",
+        "permission-enforcement"
+      ],
+      "problems": [
+        "auditar herramientas",
+        "riesgos de agentes"
+      ],
+      "summary": "Scanner del proyecto NVIDIA para detectar patrones de riesgo en skills de agentes.",
+      "sources": [
+        "community",
+        "skillspector"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/security/skillspector.md",
+      "backlinks": [
+        "skill-supply-chain"
+      ]
+    },
+    {
+      "id": "strix",
+      "title": "Strix",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "security"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "bounded-autonomy",
+        "security-audit",
+        "benchmark-hygiene"
+      ],
+      "problems": [
+        "auditar herramientas",
+        "riesgos de agentes"
+      ],
+      "summary": "Herramienta de pruebas de seguridad asistidas por IA.",
+      "sources": [
+        "community",
+        "strix"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/security/strix.md",
+      "backlinks": [
+        "security-audit"
+      ]
+    },
+    {
+      "id": "tailscale",
+      "title": "Tailscale",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "infrastructure"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "persistent-agent-operations",
+        "orca",
+        "privacy-by-boundary"
+      ],
+      "problems": [
+        "infraestructura",
+        "agentes persistentes"
+      ],
+      "summary": "Herramientas de red privada para conectar equipos y servicios con control de acceso.",
+      "sources": [
+        "community",
+        "tailscale"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/infrastructure/tailscale.md",
+      "backlinks": [
+        "orca",
+        "persistent-agent-operations"
+      ]
+    },
+    {
+      "id": "technology-governance",
+      "title": "Gobernanza, incertidumbre y reducción de riesgo",
+      "type": "research",
+      "tags": [
+        "governance",
+        "safety",
+        "philosophy"
+      ],
+      "status": "debate",
+      "evidence": "open-debate",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "capability-is-not-alignment",
+        "human-agency",
+        "autonomous-risk"
+      ],
+      "problems": [
+        "impacto social",
+        "riesgo existencial",
+        "gobernanza"
+      ],
+      "summary": "Aceptar incertidumbre no elimina el valor de controles ni convierte un protocolo en garantía absoluta.",
+      "sources": [
+        "community"
+      ],
+      "origin": "community-synthesis",
+      "path": "research/governance/technology-governance.md",
+      "backlinks": []
+    },
+    {
+      "id": "wacli",
+      "title": "wacli",
+      "type": "tool",
+      "tags": [
+        "tools",
+        "infrastructure"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "privacy-by-boundary",
+        "permission-enforcement",
+        "issue-based-coordination"
+      ],
+      "problems": [
+        "infraestructura",
+        "agentes persistentes"
+      ],
+      "summary": "CLI de WhatsApp que documenta sincronización, búsqueda y envío.",
+      "sources": [
+        "community",
+        "wacli"
+      ],
+      "origin": "community-synthesis",
+      "path": "tools/infrastructure/wacli.md",
+      "backlinks": []
+    },
+    {
+      "id": "worktree-per-agent",
+      "title": "Un worktree por cambio concurrente",
+      "type": "pattern",
+      "tags": [
+        "git",
+        "parallel",
+        "coding"
+      ],
+      "status": "active",
+      "evidence": "mixed",
+      "last_reviewed": "2026-11-03",
+      "related": [
+        "multi-agent-orchestration",
+        "orca",
+        "agentic-coding"
+      ],
+      "problems": [
+        "coding agents en paralelo",
+        "conflictos git"
+      ],
+      "summary": "Separar directorios y ramas reduce colisiones entre agentes que modifican código en paralelo.",
+      "sources": [
+        "community",
+        "git"
+      ],
+      "origin": "community-synthesis",
+      "path": "patterns/worktree-per-agent.md",
+      "backlinks": [
+        "agentic-coding",
+        "codex",
+        "multi-agent-orchestration",
+        "orca"
+      ]
+    }
+  ],
+  "counts": {
+    "guide": 4,
+    "idea": 14,
+    "pattern": 14,
+    "research": 11,
+    "tool": 33,
+    "workflow": 2
+  }
+}
