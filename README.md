@@ -1,3 +1,5 @@
+![Meme sobre la complejidad innecesaria de los sistemas de agentes](WhatsApp%20Image%202026-10-27%20at%2020.16.23%20%282%29.jpeg)
+
 # Deprepo
 
 Conocimiento colectivo sobre inteligencia artificial, conectado para personas y agentes.
