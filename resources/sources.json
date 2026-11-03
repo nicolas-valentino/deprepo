@@ -1,0 +1,368 @@
+{
+  "community": {
+    "title": "Síntesis editorial de DepreIA, abril 2025–noviembre 2026",
+    "kind": "private-community",
+    "verification": "private-source-reviewed",
+    "supports": "Experiencias y posiciones reportadas, sin atribución ni validación independiente. Fuente privada no distribuida."
+  },
+  "agents": {
+    "title": "Building effective agents",
+    "url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Distinción workflow/agente y patrones de composición. Documento de proveedor, no comparación neutral."
+  },
+  "git": {
+    "title": "Git worktree",
+    "url": "https://git-scm.com/docs/git-worktree",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Semántica de árboles de trabajo vinculados; no aislamiento de procesos."
+  },
+  "hermes": {
+    "title": "Hermes Agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "openclaw": {
+    "title": "OpenClaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "pi": {
+    "title": "Pi toolkit",
+    "url": "https://github.com/earendil-works/pi",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "orca": {
+    "title": "Orca",
+    "url": "https://www.onorca.dev/",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "gbrain": {
+    "title": "GBrain",
+    "url": "https://github.com/garrytan/gbrain",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "hindsight": {
+    "title": "Hindsight",
+    "url": "https://github.com/vectorize-io/hindsight",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "openviking": {
+    "title": "OpenViking",
+    "url": "https://github.com/volcengine/OpenViking",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "graphify": {
+    "title": "Graphify",
+    "url": "https://github.com/Graphify-Labs/graphify",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "bmad": {
+    "title": "BMAD Method",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "gsd": {
+    "title": "Get Shit Done",
+    "url": "https://github.com/gsd-build/get-shit-done",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "harness2": {
+    "title": "Harness²",
+    "url": "https://github.com/google-research/harness2",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "skillspector": {
+    "title": "SkillSpector",
+    "url": "https://github.com/NVIDIA/SkillSpector",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "security-audit": {
+    "title": "Security audit skill",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "strix": {
+    "title": "Strix",
+    "url": "https://github.com/usestrix/strix",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "codex": {
+    "title": "Codex",
+    "url": "https://github.com/openai/codex",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "claude-code": {
+    "title": "Claude Code",
+    "url": "https://code.claude.com/docs/en/overview",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "cline": {
+    "title": "Cline",
+    "url": "https://github.com/cline/cline",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "cursor": {
+    "title": "Cursor",
+    "url": "https://cursor.com/docs",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "ollama": {
+    "title": "Ollama",
+    "url": "https://docs.ollama.com/",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "openrouter": {
+    "title": "Provider logging",
+    "url": "https://openrouter.ai/docs/guides/privacy/provider-logging",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "obsidian": {
+    "title": "How Obsidian stores data",
+    "url": "https://obsidian.md/help/Files%2Band%2Bfolders/How%2BObsidian%2Bstores%2Bdata",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "openevolve": {
+    "title": "OpenEvolve",
+    "url": "https://github.com/codelion/openevolve",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "mcp": {
+    "title": "MCP security considerations",
+    "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/docs/specification/2026-07-28/basic/authorization/security-considerations.mdx",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Autorización, audiencia de tokens y separación de credenciales upstream."
+  },
+  "finetuning": {
+    "title": "Fine-tuning Aligned Language Models Compromises Safety",
+    "url": "https://arxiv.org/abs/2310.03693",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Resultados de los modelos y ajustes estudiados; no todos los entrenamientos."
+  },
+  "emergent": {
+    "title": "Emergent Misalignment",
+    "url": "https://arxiv.org/abs/2502.17424",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Fine-tuning estrecho y cambios de conducta fuera de dominio en el experimento."
+  },
+  "incontext": {
+    "title": "Emergent Misalignment via In-Context Learning",
+    "url": "https://arxiv.org/abs/2510.11288",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Ejemplos contextuales y conducta en modelos/tareas del estudio."
+  },
+  "pretraining": {
+    "title": "Beyond Safe Data",
+    "url": "https://arxiv.org/abs/2606.19168",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Intervenciones de pretraining propuestas por los autores; no resolución general de alignment."
+  },
+  "pain": {
+    "title": "The Pain Axis",
+    "url": "https://arxiv.org/abs/2609.16247",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Representaciones y conductas en los experimentos; no demostración de sufrimiento."
+  },
+  "emotions": {
+    "title": "Emotion concepts and their function",
+    "url": "https://www.anthropic.com/research/emotion-concepts-function",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Representaciones funcionales de emociones; explícitamente no demuestra experiencia subjetiva."
+  },
+  "replication": {
+    "title": "AI models may be capable of self-replicating",
+    "url": "https://www.anthropic.com/research/self-replicating-ai",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Evaluación controlada de capacidad; no prueba de infección autónoma en el mundo."
+  },
+  "labor": {
+    "title": "Labor market impacts of AI",
+    "url": "https://www.anthropic.com/research/labor-market-impacts",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Medida de exposición y evidencia temprana; no pronóstico causal universal."
+  },
+  "chunking": {
+    "title": "Dynamic Chunking for End-to-End Hierarchical Sequence Modeling",
+    "url": "https://arxiv.org/abs/2507.07955",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Arquitectura y resultados específicos del paper."
+  },
+  "context": {
+    "title": "Lost in the Middle",
+    "url": "https://arxiv.org/abs/2307.03172",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Sensibilidad a posición en tareas/modelos estudiados; no cifra universal de memoria."
+  },
+  "alphaevolve": {
+    "title": "AlphaEvolve",
+    "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Búsqueda evolutiva con evaluación programática reportada por DeepMind."
+  },
+  "wacli": {
+    "title": "wacli",
+    "url": "https://github.com/openclaw/wacli",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "tailscale": {
+    "title": "Tailscale",
+    "url": "https://tailscale.com/docs",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "forgejo": {
+    "title": "Forgejo",
+    "url": "https://forgejo.org/docs/latest/",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "logseq": {
+    "title": "Logseq",
+    "url": "https://github.com/logseq/logseq",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "langgraph": {
+    "title": "LangGraph",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "n8n": {
+    "title": "n8n",
+    "url": "https://docs.n8n.io/",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "skills": {
+    "title": "Agent Skills",
+    "url": "https://agentskills.io/home",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "opencode": {
+    "title": "OpenCode",
+    "url": "https://opencode.ai/docs/",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Identidad y alcance documentado; no prueba de superioridad ni auditoría de seguridad."
+  },
+  "diffusion": {
+    "title": "Large-Language Models as a Cognitive Virus",
+    "url": "https://arxiv.org/abs/2609.03344",
+    "kind": "primary",
+    "checked_on": "2026-11-03",
+    "verification": "retrieved",
+    "supports": "Modelo teórico de difusión, dependencia y reversibilidad; no estudio causal longitudinal de inteligencia humana."
+  }
+}

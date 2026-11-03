@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "messages_total": 7148,
+  "date_start": "2025-04-21",
+  "date_end": "2026-11-03",
+  "limitations": [
+    "Keyword hits overlap and are not an exhaustive semantic classification.",
+    "No media content is present; omission notices are not evidence.",
+    "Same timestamp and body are deduplicated even if authors differ.",
+    "HMAC identity includes message body; edited messages appear as new.",
+    "No authors, messages, private URLs or unsalted hashes are exported."
+  ]
+}
