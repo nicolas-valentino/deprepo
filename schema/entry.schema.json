@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Deprepo entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "type",
+    "tags",
+    "status",
+    "evidence",
+    "last_reviewed",
+    "related",
+    "problems",
+    "summary",
+    "sources",
+    "origin"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "idea",
+        "pattern",
+        "tool",
+        "research",
+        "guide",
+        "workflow"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "experimental",
+        "debate",
+        "deprecated"
+      ]
+    },
+    "evidence": {
+      "type": "string",
+      "enum": [
+        "validated",
+        "experience",
+        "hypothesis",
+        "open-debate",
+        "mixed"
+      ]
+    },
+    "last_reviewed": {
+      "type": "string",
+      "format": "date"
+    },
+    "related": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "problems": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 30
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "origin": {
+      "type": "string",
+      "enum": [
+        "community-synthesis",
+        "editorial-guide",
+        "external-research"
+      ]
+    }
+  }
+}

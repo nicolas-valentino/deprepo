@@ -1,0 +1,44 @@
+Deprepo — scope of new contributions
+
+NEW DOCUMENTATION AND KNOWLEDGE CONTENT
+
+Copyright (c) 2026 Deprepo contributors.
+New Markdown knowledge entries, root project documentation, schema, generated
+catalog, curated resource metadata, and editorial reports introduced by the
+Deprepo knowledge-base implementation are licensed under Creative Commons
+Attribution 4.0 International (CC BY 4.0).
+Full license terms: https://creativecommons.org/licenses/by/4.0/legalcode
+Attribution: Deprepo contributors, https://github.com/nicolas-valentino/deprepo
+Indicate modifications and retain links to the license and source.
+
+NEW SOFTWARE
+
+The new scripts/, tests/ and .github/workflows/ files are licensed under MIT:
+
+Copyright (c) 2026 Deprepo contributors.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+EXCLUSIONS
+
+The pre-existing go-model-router/ directory is preserved without modification
+and is NOT relicensed by this file. Its authors retain their rights; consult
+its original terms or authors before redistribution where permission is unclear.
+External linked resources retain their own licenses. Private community exports,
+participant identities and verbatim conversations are not distributed or licensed.
